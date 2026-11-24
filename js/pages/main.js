@@ -17,7 +17,7 @@ function renderBrand(sectionId, products) {
             </ul>
             <div>
                 <h5>Price : $${item.price.toLocaleString('en-US')}</h5>
-                <button class="add-btn" data-id="${item.id}">Add to cart</button>
+                <button class="add-btn" data-id="${item.id}" onclick="alert('Item added to cart!')">Add to cart</button>
             </div>
         </figure>
     `).join("");
